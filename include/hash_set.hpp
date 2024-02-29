@@ -165,10 +165,10 @@ void entry<K>::add_node(K key) {
 
 template<class K>
 void entry<K>::remove_node(K key) {
-    if (!root) { return; } //if there's no root, then there is no data here and you can't delete the key
+    if (!root) { return; } //если нет рута, то и данных здесь нет и ключ удалить нельзя
     //______________________
 
-    if (root->data == key) //if the root has the key, delete the root and rearrange
+    if (root->data == key) //если в корне есть ключ, удалите рут и переставьте
     {
         node<K> *old = root;
         root = root->next;
@@ -178,7 +178,7 @@ void entry<K>::remove_node(K key) {
     }
     //______________________
 
-    // if the root doesn't have the data, we need to search through the children
+    // если в корне нет данных, нам нужно выполнить поиск среди дочерних элементов
     node<K> *x = root;
     while (x->next) {
         if (x->next->data == key) {
