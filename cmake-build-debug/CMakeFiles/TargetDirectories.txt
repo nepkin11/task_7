@@ -1,0 +1,3 @@
+C:/Users/Alexander/CLionProjects/Kulakov/Task07/cmake-build-debug/CMakeFiles/Task07.dir
+C:/Users/Alexander/CLionProjects/Kulakov/Task07/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alexander/CLionProjects/Kulakov/Task07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
